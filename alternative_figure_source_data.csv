@@ -1,0 +1,161 @@
+﻿scenario,seed,metric,metric_label,unit,value,fixed_no_mpc_value,improvement_vs_fixed_no_mpc_pct
+fixed_no_mpc,10000,total_delay,Total delay,s,17761.66099,17761.66099,0
+fixed_no_mpc,10001,total_delay,Total delay,s,17846.39028,17846.39028,0
+fixed_no_mpc,10002,total_delay,Total delay,s,18009.8059,18009.8059,0
+fixed_no_mpc,10003,total_delay,Total delay,s,18015.63477,18015.63477,0
+fixed_no_mpc,10004,total_delay,Total delay,s,18379.70906,18379.70906,0
+fixed_no_mpc,10000,avg_queue_count,Mean queue,vehicles,23.07933333,23.07933333,0
+fixed_no_mpc,10001,avg_queue_count,Mean queue,vehicles,23.21983333,23.21983333,0
+fixed_no_mpc,10002,avg_queue_count,Mean queue,vehicles,23.50733333,23.50733333,0
+fixed_no_mpc,10003,avg_queue_count,Mean queue,vehicles,23.37766667,23.37766667,0
+fixed_no_mpc,10004,avg_queue_count,Mean queue,vehicles,23.98733333,23.98733333,0
+fixed_no_mpc,10000,arrived_count,Throughput,vehicles,528,528,0
+fixed_no_mpc,10001,arrived_count,Throughput,vehicles,530,530,0
+fixed_no_mpc,10002,arrived_count,Throughput,vehicles,533,533,0
+fixed_no_mpc,10003,arrived_count,Throughput,vehicles,529,529,0
+fixed_no_mpc,10004,arrived_count,Throughput,vehicles,523,523,0
+fixed_no_mpc,10000,hdv_fuel_g,HDV fuel,g,8993.111951,8993.111951,0
+fixed_no_mpc,10001,hdv_fuel_g,HDV fuel,g,9437.542216,9437.542216,0
+fixed_no_mpc,10002,hdv_fuel_g,HDV fuel,g,9710.21728,9710.21728,0
+fixed_no_mpc,10003,hdv_fuel_g,HDV fuel,g,9133.201494,9133.201494,0
+fixed_no_mpc,10004,hdv_fuel_g,HDV fuel,g,10133.36176,10133.36176,0
+fixed_no_mpc,10000,actual_cav_energy_kwh,CAV energy,kWh,8.393808408,8.393808408,0
+fixed_no_mpc,10001,actual_cav_energy_kwh,CAV energy,kWh,8.166838896,8.166838896,0
+fixed_no_mpc,10002,actual_cav_energy_kwh,CAV energy,kWh,7.829283332,7.829283332,0
+fixed_no_mpc,10003,actual_cav_energy_kwh,CAV energy,kWh,7.972211663,7.972211663,0
+fixed_no_mpc,10004,actual_cav_energy_kwh,CAV energy,kWh,7.735356149,7.735356149,0
+fixed_no_mpc,10000,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.485970131,0.485970131,0
+fixed_no_mpc,10001,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.493059999,0.493059999,0
+fixed_no_mpc,10002,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.487353761,0.487353761,0
+fixed_no_mpc,10003,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.467024495,0.467024495,0
+fixed_no_mpc,10004,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.4859307,0.4859307,0
+fixed_no_mpc,10000,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.934137084,0.934137084,0
+fixed_no_mpc,10001,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.940312834,0.940312834,0
+fixed_no_mpc,10002,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.941900676,0.941900676,0
+fixed_no_mpc,10003,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.9166448,0.9166448,0
+fixed_no_mpc,10004,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.929201137,0.929201137,0
+fixed_no_mpc,10000,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.732343903,3.732343903,0
+fixed_no_mpc,10001,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.793885243,3.793885243,0
+fixed_no_mpc,10002,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.624595757,3.624595757,0
+fixed_no_mpc,10003,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.562567564,3.562567564,0
+fixed_no_mpc,10004,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.80064321,3.80064321,0
+fixed_mpc,10000,total_delay,Total delay,s,18301.73655,17761.66099,-3.040681623
+fixed_mpc,10001,total_delay,Total delay,s,17952.20619,17846.39028,-0.592926112
+fixed_mpc,10002,total_delay,Total delay,s,18177.69303,18009.8059,-0.932198425
+fixed_mpc,10003,total_delay,Total delay,s,18227.16093,18015.63477,-1.174125519
+fixed_mpc,10004,total_delay,Total delay,s,18610.49953,18379.70906,-1.255680716
+fixed_mpc,10000,avg_queue_count,Mean queue,vehicles,23.91483333,23.07933333,-3.620121898
+fixed_mpc,10001,avg_queue_count,Mean queue,vehicles,23.36866667,23.21983333,-0.640975029
+fixed_mpc,10002,avg_queue_count,Mean queue,vehicles,23.7615,23.50733333,-1.081222881
+fixed_mpc,10003,avg_queue_count,Mean queue,vehicles,23.699,23.37766667,-1.374531248
+fixed_mpc,10004,avg_queue_count,Mean queue,vehicles,24.35416667,23.98733333,-1.529279342
+fixed_mpc,10000,arrived_count,Throughput,vehicles,528,528,0
+fixed_mpc,10001,arrived_count,Throughput,vehicles,530,530,0
+fixed_mpc,10002,arrived_count,Throughput,vehicles,531,533,-0.375234522
+fixed_mpc,10003,arrived_count,Throughput,vehicles,529,529,0
+fixed_mpc,10004,arrived_count,Throughput,vehicles,521,523,-0.382409178
+fixed_mpc,10000,hdv_fuel_g,HDV fuel,g,9007.796073,8993.111951,-0.163281877
+fixed_mpc,10001,hdv_fuel_g,HDV fuel,g,9425.907544,9437.542216,0.12328074
+fixed_mpc,10002,hdv_fuel_g,HDV fuel,g,9699.642652,9710.21728,0.108902069
+fixed_mpc,10003,hdv_fuel_g,HDV fuel,g,9124.524358,9133.201494,0.095006515
+fixed_mpc,10004,hdv_fuel_g,HDV fuel,g,10128.68959,10133.36176,0.046106858
+fixed_mpc,10000,actual_cav_energy_kwh,CAV energy,kWh,7.991027957,8.393808408,4.798542354
+fixed_mpc,10001,actual_cav_energy_kwh,CAV energy,kWh,7.628872526,8.166838896,6.587204397
+fixed_mpc,10002,actual_cav_energy_kwh,CAV energy,kWh,7.391613449,7.829283332,5.590165342
+fixed_mpc,10003,actual_cav_energy_kwh,CAV energy,kWh,7.553421002,7.972211663,5.253130234
+fixed_mpc,10004,actual_cav_energy_kwh,CAV energy,kWh,7.266997846,7.735356149,6.054773614
+fixed_mpc,10000,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.455288134,0.485970131,6.31355612
+fixed_mpc,10001,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.466796577,0.493059999,5.326617892
+fixed_mpc,10002,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.463597331,0.487353761,4.874576041
+fixed_mpc,10003,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.443303197,0.467024495,5.079240672
+fixed_mpc,10004,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.45789462,0.4859307,5.769563403
+fixed_mpc,10000,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.908963895,0.934137084,2.694806739
+fixed_mpc,10001,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.920440099,0.940312834,2.11341739
+fixed_mpc,10002,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.923727302,0.941900676,1.929436304
+fixed_mpc,10003,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.896606669,0.9166448,2.186030103
+fixed_mpc,10004,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,0.906638223,0.929201137,2.428205512
+fixed_mpc,10000,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.126980877,3.732343903,16.21937962
+fixed_mpc,10001,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.17282184,3.793885243,16.37011567
+fixed_mpc,10002,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.09113592,3.624595757,14.71777468
+fixed_mpc,10003,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.049557847,3.562567564,14.39999967
+fixed_mpc,10004,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,3.226009874,3.80064321,15.11937071
+dqn_no_mpc,10000,total_delay,Total delay,s,8807.736594,17761.66099,50.41152627
+dqn_no_mpc,10001,total_delay,Total delay,s,8720.500046,17846.39028,51.13577643
+dqn_no_mpc,10002,total_delay,Total delay,s,8703.255128,18009.8059,51.67490879
+dqn_no_mpc,10003,total_delay,Total delay,s,9134.276081,18015.63477,49.29806139
+dqn_no_mpc,10004,total_delay,Total delay,s,8631.717147,18379.70906,53.03670413
+dqn_no_mpc,10000,avg_queue_count,Mean queue,vehicles,8.647,23.07933333,62.53357983
+dqn_no_mpc,10001,avg_queue_count,Mean queue,vehicles,8.481166667,23.21983333,63.47447225
+dqn_no_mpc,10002,avg_queue_count,Mean queue,vehicles,8.507333333,23.50733333,63.80987493
+dqn_no_mpc,10003,avg_queue_count,Mean queue,vehicles,9.039166667,23.37766667,61.33417934
+dqn_no_mpc,10004,avg_queue_count,Mean queue,vehicles,8.322666667,23.98733333,65.3039104
+dqn_no_mpc,10000,arrived_count,Throughput,vehicles,548,528,3.787878788
+dqn_no_mpc,10001,arrived_count,Throughput,vehicles,549,530,3.58490566
+dqn_no_mpc,10002,arrived_count,Throughput,vehicles,551,533,3.377110694
+dqn_no_mpc,10003,arrived_count,Throughput,vehicles,552,529,4.347826087
+dqn_no_mpc,10004,arrived_count,Throughput,vehicles,551,523,5.353728489
+dqn_no_mpc,10000,hdv_fuel_g,HDV fuel,g,5186.558853,8993.111951,42.32742924
+dqn_no_mpc,10001,hdv_fuel_g,HDV fuel,g,5148.431091,9437.542216,45.4473318
+dqn_no_mpc,10002,hdv_fuel_g,HDV fuel,g,5553.38816,9710.21728,42.80881673
+dqn_no_mpc,10003,hdv_fuel_g,HDV fuel,g,5487.574344,9133.201494,39.91620192
+dqn_no_mpc,10004,hdv_fuel_g,HDV fuel,g,5448.057161,10133.36176,46.23642886
+dqn_no_mpc,10000,actual_cav_energy_kwh,CAV energy,kWh,7.912663243,8.393808408,5.732143766
+dqn_no_mpc,10001,actual_cav_energy_kwh,CAV energy,kWh,7.706222372,8.166838896,5.640083391
+dqn_no_mpc,10002,actual_cav_energy_kwh,CAV energy,kWh,7.218985281,7.829283332,7.795069174
+dqn_no_mpc,10003,actual_cav_energy_kwh,CAV energy,kWh,7.533365525,7.972211663,5.504697521
+dqn_no_mpc,10004,actual_cav_energy_kwh,CAV energy,kWh,7.213016739,7.735356149,6.752622636
+dqn_no_mpc,10000,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.746085492,0.485970131,-53.52496884
+dqn_no_mpc,10001,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.747447686,0.493059999,-51.59365762
+dqn_no_mpc,10002,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.759095161,0.487353761,-55.75855205
+dqn_no_mpc,10003,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.731584831,0.467024495,-56.64806422
+dqn_no_mpc,10004,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.742687346,0.4859307,-52.83811997
+dqn_no_mpc,10000,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.187613594,0.934137084,-27.13482999
+dqn_no_mpc,10001,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.191805699,0.940312834,-26.74565902
+dqn_no_mpc,10002,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.204677897,0.941900676,-27.89861267
+dqn_no_mpc,10003,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.174417786,0.9166448,-28.12136025
+dqn_no_mpc,10004,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.186442003,0.929201137,-27.68408861
+dqn_no_mpc,10000,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,5.494382819,3.732343903,-47.20998282
+dqn_no_mpc,10001,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,5.42603799,3.793885243,-43.02061456
+dqn_no_mpc,10002,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,5.435543048,3.624595757,-49.96273827
+dqn_no_mpc,10003,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,5.375840281,3.562567564,-50.89791797
+dqn_no_mpc,10004,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,5.479512229,3.80064321,-44.17328662
+dqn_mpc,10000,total_delay,Total delay,s,8994.790906,17761.66099,49.35839102
+dqn_mpc,10001,total_delay,Total delay,s,8721.602202,17846.39028,51.12960064
+dqn_mpc,10002,total_delay,Total delay,s,8620.235304,18009.8059,52.13587891
+dqn_mpc,10003,total_delay,Total delay,s,9117.567971,18015.63477,49.39080366
+dqn_mpc,10004,total_delay,Total delay,s,8630.256511,18379.70906,53.04465113
+dqn_mpc,10000,avg_queue_count,Mean queue,vehicles,8.885666667,23.07933333,61.49946561
+dqn_mpc,10001,avg_queue_count,Mean queue,vehicles,8.472666667,23.21983333,63.51107889
+dqn_mpc,10002,avg_queue_count,Mean queue,vehicles,8.3445,23.50733333,64.50256657
+dqn_mpc,10003,avg_queue_count,Mean queue,vehicles,8.9995,23.37766667,61.50385696
+dqn_mpc,10004,avg_queue_count,Mean queue,vehicles,8.306333333,23.98733333,65.37200189
+dqn_mpc,10000,arrived_count,Throughput,vehicles,547,528,3.598484848
+dqn_mpc,10001,arrived_count,Throughput,vehicles,550,530,3.773584906
+dqn_mpc,10002,arrived_count,Throughput,vehicles,551,533,3.377110694
+dqn_mpc,10003,arrived_count,Throughput,vehicles,552,529,4.347826087
+dqn_mpc,10004,arrived_count,Throughput,vehicles,551,523,5.353728489
+dqn_mpc,10000,hdv_fuel_g,HDV fuel,g,5127.767097,8993.111951,42.98117131
+dqn_mpc,10001,hdv_fuel_g,HDV fuel,g,5128.415255,9437.542216,45.65941918
+dqn_mpc,10002,hdv_fuel_g,HDV fuel,g,5549.82646,9710.21728,42.84549665
+dqn_mpc,10003,hdv_fuel_g,HDV fuel,g,5492.817062,9133.201494,39.85879907
+dqn_mpc,10004,hdv_fuel_g,HDV fuel,g,5446.238326,10133.36176,46.25437784
+dqn_mpc,10000,actual_cav_energy_kwh,CAV energy,kWh,7.438898375,8.393808408,11.37636203
+dqn_mpc,10001,actual_cav_energy_kwh,CAV energy,kWh,7.187537461,8.166838896,11.99119326
+dqn_mpc,10002,actual_cav_energy_kwh,CAV energy,kWh,6.737518505,7.829283332,13.944633
+dqn_mpc,10003,actual_cav_energy_kwh,CAV energy,kWh,7.050649897,7.972211663,11.5596751
+dqn_mpc,10004,actual_cav_energy_kwh,CAV energy,kWh,6.692221224,7.735356149,13.48528632
+dqn_mpc,10000,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.702645939,0.485970131,-44.58623985
+dqn_mpc,10001,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.706962693,0.493059999,-43.38269066
+dqn_mpc,10002,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.725499719,0.487353761,-48.86511153
+dqn_mpc,10003,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.701970822,0.467024495,-50.30706716
+dqn_mpc,10004,actual_cav_mean_abs_acc,Mean |acceleration|,m s$^{-2}$,0.701986442,0.4859307,-44.4622539
+dqn_mpc,10000,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.170892717,0.934137084,-25.34484895
+dqn_mpc,10001,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.168966003,0.940312834,-24.31671253
+dqn_mpc,10002,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.183048135,0.941900676,-25.6022175
+dqn_mpc,10003,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.163688868,0.9166448,-26.95090485
+dqn_mpc,10004,actual_cav_rms_acc,RMS acceleration,m s$^{-2}$,1.164390056,0.929201137,-25.31087297
+dqn_mpc,10000,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,4.452543189,3.732343903,-19.29616627
+dqn_mpc,10001,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,4.532412279,3.793885243,-19.46624606
+dqn_mpc,10002,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,4.606088736,3.624595757,-27.07868807
+dqn_mpc,10003,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,4.465647545,3.562567564,-25.34913273
+dqn_mpc,10004,actual_cav_mean_abs_jerk,Mean |jerk|,m s$^{-3}$,4.505403038,3.80064321,-18.54317253
